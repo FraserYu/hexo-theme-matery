@@ -20,7 +20,7 @@
     var containerClass = isTocEnable ? 'post-container' : 'container';
 %>
 
-<main class="<%- containerClass %> content">
+<main id="<%- containerClass %>" class="<%- containerClass %> content">
 
     <% if (isTocEnable) { %>
     <%- partial('_partial/post-detail-toc.ejs') %>
